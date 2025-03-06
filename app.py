@@ -29,22 +29,5 @@ def main():
         else:
             st.warning('Please enter text to translate')
 
-    # Copyright notice
-    st.markdown("""
-    <style>
-    .footer {
-        position: fixed;
-        bottom: 10px;
-        width: 100%;
-        text-align: center;
-        color: #888;
-        font-size: 12px;
-    }
-    </style>
-    <div class="footer">
-        <p>&copy; Copyright 2024 shubharaj.</p>
-    </div>
-    """, unsafe_allow_html=True)
-
 if __name__ == '__main__':
     main()
